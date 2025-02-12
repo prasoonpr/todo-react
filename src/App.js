@@ -57,14 +57,11 @@ function App() {
     setIsEditing(null);
     setEditText("");
   };
-  // const col1="red"
-  // const col2="blue"
-  // const [color,setColor]=useState(true)
+
   
   return (
     <section className="container">
-      {/* {color?<button style={{color:col1}} onClick={()=>{setColor(!color)}}>brototype</button>:
-      <button style={{color:col2}} onClick={()=>{setColor(!color)}}>brototype</button>} */}
+  
       
       <div className="heading">
         <img className="heading__img"src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg"alt="nothing"/>
